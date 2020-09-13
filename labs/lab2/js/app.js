@@ -1,7 +1,14 @@
-let number = 0;
+function setup() {
+    createCanvas(400,300);
+
+    let mouseX =0
+    let mouseY =0;
+
+}
 
 function draw() {
-    number = number + 1;
-    console.log(number);
-    
+    background(0)
+    mouseX = mouseX + 2;
+    mouseY = mouseY = 5;
+    circle(mouseX, mouseY, 30);
 }
