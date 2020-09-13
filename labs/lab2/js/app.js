@@ -8,7 +8,13 @@ function setup() {
 
 function draw() {
     background(0)
-    mouseX = mouseX + 2;
-    mouseY = mouseY = 5;
+    
     circle(mouseX, mouseY, 30);
+    fill(66, 144, 245)
+
+    if (mouseX > 200) {
+        fill(245, 66, 66);
+    }
+     
+        
 }
