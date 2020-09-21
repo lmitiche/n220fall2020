@@ -11,7 +11,7 @@ function draw() {
     noFill();
 
     //For loop syntax
-    for( var i =0; i < 30; i++) {
+    for( var i =0; i < 15; i++) {
         stroke(255 - (i * 15));
 
         circle(200,150, i * 5);
