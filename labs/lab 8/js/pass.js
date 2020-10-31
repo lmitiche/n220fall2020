@@ -1,6 +1,6 @@
 let txtUsername = document.getElementById("txtUsername");
 let txtPassword = document.getElementById("txtPassword");
-let dvResult = document.getElementById("dvResults");
+let dvResult = document.getElementById("dvResult");
 dvResult.innerHTML = "Insert Password";
 
 function checkInput(){
