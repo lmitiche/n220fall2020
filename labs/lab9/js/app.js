@@ -13,7 +13,7 @@ dvSquare.style.marginBottom = "50px";
 
 function increaseSize() {
     {
-       
+      
      }
     
 }
