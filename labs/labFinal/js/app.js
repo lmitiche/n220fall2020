@@ -3,7 +3,7 @@
 var memoryArr = ['1','1','2','2','3','3','4','4','5','5','6','6','7','7','8','8'];
 var memoryValues = [];
 var memoryCardIds = [];
-var tiles_flipped = 0;
+var tilesFlipped = 0;
 
 //Shuffles the card values
 
@@ -43,7 +43,7 @@ memoryCardIds.push(cardTile.id);
 
 if(memoryValues[0] == memoryValues[1]){
 
-tiles_flipped += 2;
+tilesFlipped += 2;
 
 memoryValues = [];
 
@@ -51,7 +51,7 @@ memoryCardIds = [];
 
 // If statement checking whether board has been cleared
 
-if(tiles_flipped == memoryArr.length){
+if(tilesFlipped == memoryArr.length){
 
 alert("Winner!");
 
